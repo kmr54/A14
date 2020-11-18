@@ -28,7 +28,7 @@ function getCookie(cname) {
 function checkCookie() {
   var user=getCookie("username");
   if (user != "") {
-    document.write("This is my A14 HW, " + user);
+    alert("This is my A14 HW, " + user);
   } else {
      user = prompt("Please enter your name:","");
      if (user != "" && user != null) {
